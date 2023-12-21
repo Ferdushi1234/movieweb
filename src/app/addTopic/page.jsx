@@ -19,7 +19,7 @@ import Styles from "./addTopic.css"
     }
 
     try {
-      const res = await fetch("http://localhost:3000/api/topics", {
+      const res = await fetch("https://6583eb2a4f0b7c0008a8e7c3--celebrated-duckanoo-603801.netlify.app/api/topics", {
         method: "POST",
         headers: {
           "Content-type": "application/json",

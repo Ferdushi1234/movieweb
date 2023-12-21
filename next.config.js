@@ -6,7 +6,16 @@ const nextConfig = {
   },
   images:{
     domains:['occ-0-3933-116.1.nflxso.net']
-  }
+  },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
+
+      },
+    ],
+  },
 }
 
 module.exports = nextConfig

@@ -45,7 +45,7 @@ const Login= () => {
 
             <p>
               Forgot
-              <a href="/signup" style={{ color: "blue" }}>
+              <a href="/" style={{ color: "blue" }}>
                 {" "}
                 Password?
               </a>

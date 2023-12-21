@@ -25,7 +25,7 @@ const Page = async ({params}) => {
                 <h2 className={styles.movie_title}>   Netflix \ <span> {main_data.type} </span> </h2>
                 <div className={styles.card_section}>
                     <div>
-                        <Image src={main_data.backgroundImage.url} alt={main_data.title} width={600} height={300} />
+                        <img src={main_data.backgroundImage.url} alt={main_data.title} width={600} height={300} />
                     </div>
                     <div>
                         <h1>{main_data.title}</h1>

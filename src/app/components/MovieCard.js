@@ -11,7 +11,7 @@ const MovieCard = (curElem) => {
         <>
             <div className={styles.card}>
                 <div className={styles.card_image}>
-                    <Image src={curElem.jawSummary.backgroundImage.url} alt={title} width={260} height={200} />
+                    <img src={curElem.jawSummary.backgroundImage.url} alt={title} width={260} height={200} />
                 </div>
                 <div className={styles.card_data}>
                     <h2>{title.substring(0,18)}</h2>

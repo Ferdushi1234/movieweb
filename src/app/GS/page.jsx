@@ -21,7 +21,7 @@ const getTopics = async () => {
 };
 
  const TopicsList= async()=> {
-  const { topics } = await getTopics()
+  const { topics } = await getTopics() || {}
   .catch(err => {
     return { topics: "There was an error!" }
   })

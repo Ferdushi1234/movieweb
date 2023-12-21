@@ -8,7 +8,7 @@ import GS from "../GS/page"
 const Herosection = ({title, imageUrl}) => {
     return (
         <>
-        <video height={"840rem"} src={"/anim.mp4"} autoPlay="{true}" loop muted
+        <video height={"840rem"} src="/anim.mp4" autoPlay="{true}" loop muted
           className="absolute z-10 w-auto h-auto
             min-w-full min-h-full max-w-none">
         </video>

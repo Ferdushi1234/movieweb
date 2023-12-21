@@ -12,22 +12,16 @@ const getTopics = async () => {
 
     if (!res.ok) {
       throw new Error("Failed to fetch topics");
-      
     }
+
     return res.json();
   } catch (error) {
     console.log("Error loading topics: ", error);
   }
 };
 
- const TopicsList= async()=> {
+export default async function TopicsList() {
   const { topics } = await getTopics() || {}
-  .catch(err => {
-    return { topics: "There was an error!" }
-  })
-
-
-  console.log(topics);
 
   return (
     <>
@@ -54,4 +48,4 @@ const getTopics = async () => {
     </section>
     </>
   );
-};export default TopicsList;
+}

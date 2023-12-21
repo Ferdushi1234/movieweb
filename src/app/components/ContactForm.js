@@ -33,7 +33,7 @@ const ContactForm = () => {
         e.preventDefault();
 
         try {
-            const response = await fetch('https://65840b621894710008d29dc8--celebrated-duckanoo-603801.netlify.app/api/contact', {
+            const response = await fetch('/api/contact', {
                 method:'POST',
                 header:{"Content_Type":"application/json"},
                 body: JSON.stringify({

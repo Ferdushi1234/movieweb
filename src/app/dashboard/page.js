@@ -4,20 +4,11 @@ import { AiOutlineHome } from "react-icons/ai";
 import { BsPeople } from "react-icons/bs";
 import { TiContacts } from "react-icons/ti";
 import { FiMail } from "react-icons/fi";
-import {TfiWorld} from "react-icons/Tfi"
 import {AiFillLinkedin} from "react-icons/ai"
 import {AiFillGithub} from "react-icons/ai"
-import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 import Link from "next/link";
-import Footer from "../../components/Footer";
-
-import { useContext } from "react";
-import styles from "../../app/contact/contact.module.css"
-import { MdEmail, MdVoiceChat, MdForum } from "react-icons/md";
-import ContactCard from "../../components/ContactCard";
-import AddTopic from "../../app/addTopic/page"
-import { useRouter } from "next/router";
-import Styles from "./admin.css"
+import AddTopic from "../addTopic/page"
+import style from "../dashboard/admin.css"
 
 
 const sidebarItems = [
@@ -110,22 +101,14 @@ const Sidebar = () => {
             <Link 
             href={"http://gulfamasb.github.io/reactweb"}
             >
-          <p><TfiWorld/> http://Gulfam.in</p>
+          <p>http://Gulfam.in</p>
           </Link>
           </li>
         </ul>
       </div>
     </div>
-    <Footer/>
     </div>
-
-
 </>
-
-
-
-
-
   );
 };
 

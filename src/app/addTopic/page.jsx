@@ -46,7 +46,7 @@ import Styles from "./addTopic.css"
         value={title}
       
         type="text"
-        placeholder="Topic Title"
+        placeholder="Add the movie image link"
       />
 
       <input
@@ -54,7 +54,7 @@ import Styles from "./addTopic.css"
         value={description}
         
         type="text"
-        placeholder="Topic Description"
+        placeholder="add Description / Name"
       />
     
 

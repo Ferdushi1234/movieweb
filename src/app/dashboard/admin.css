@@ -35,7 +35,7 @@ body {
 .sidebar {
   width: 21rem;
   height: 500;
-  margin-top: 8rem;
+  margin-top: 9rem;
   background-color: var(--color-bg);
   padding: 1rem;
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.1);

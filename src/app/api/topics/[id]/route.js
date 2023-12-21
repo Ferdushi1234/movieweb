@@ -1,5 +1,5 @@
-import connectMongoDB from "../utils/mongodb";
-import Topic from "../../models/topic";
+import connectMongoDB from "../../../../utils/mongodb";
+import Topic from "../../../../models/topic";
 import { NextResponse } from "next/server";
 
 export async function PUT(request, { params }) {

@@ -21,7 +21,7 @@ export const metadata = {
   generator: 'gulfam',
   applicationName: 'gulfam',
   referrer: 'origin-when-cross-origin',
-  keywords: ['Next.js', 'React', 'JavaScript'],
+  keywords: ['GSflix','gsflix','gulfam saifi','gulfaam'],
   authors: [{ name: 'gulfam', url:'https://gulfam.in' }, { name: 'gulfam saifi', url: 'https://gulfam.in' }],
   creator: 'gulfam saifi',
   publisher: 'gulfam saifi',
